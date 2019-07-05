@@ -89,3 +89,13 @@ Combining Data in many ways : Use merging
 - Many-to-one / one-to-many
 - Many-to-many
 
+
+PART 4 - CLEANING DATA FOR ANALYSIS
+
+Data Types : 
+- Use df.types() to see data types
+- Convert using df['column_name'].astype(str)
+
+Using regular expressions to clean strings : 
+- String manipluation
+- 
