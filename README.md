@@ -1,3 +1,5 @@
+PART 1 - EXPLORING YOUR DATA
+
 Cleaning Data : 
 1. Prepare Data for Analysis
 2. Data almost never comes in clean
@@ -36,4 +38,7 @@ Box plot : Visual basic summary statistics
 Scatter plot :
 - Relationship between 2 numeric variables
 - Flag potentially bad data which we cannot look by looking at 1 variables
+
+
+PART 2 - TIDYING DATA FOR ANALYSIS
 
