@@ -42,3 +42,14 @@ Scatter plot :
 
 PART 2 - TIDYING DATA FOR ANALYSIS
 
+Tidy Data :
+- Formalize the way we describe the shape of Data
+- Gives us a goal when format ting our data
+- "Standard way to organize data values within a dataset"
+
+3 principles of Tidy Data : 
+1. Columns represent seperate variables
+2. Rows represent individual observations
+3. Observational unit forms tables
+
+
