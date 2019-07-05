@@ -52,4 +52,10 @@ Tidy Data :
 2. Rows represent individual observations
 3. Observational unit forms tables
 
+Pivot : Un-melting the Data : 
+- Opposite of melting
+- In melting, we turn columns into rows
+- Pivoting : turn unique values into seperate columns
+- Multiple variables stored in the same column
+
 
