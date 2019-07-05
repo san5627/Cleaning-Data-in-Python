@@ -6,14 +6,14 @@
 # Reshaping your data using melt
 # Melting data is the process of turning columns of your data into rows of data.
 
- # melting a DataFrame using pd.melt().
- # There are two parameters you should be aware of: id_vars and value_vars.
- # The id_vars represent the columns of the data you do not want to melt (i.e., keep it in its current shape)
- # while the value_vars represent the columns you do wish to melt into rows.
- # By default, if no value_vars are provided, all columns not set in the id_vars will be melted.
- # This could save a bit of typing, depending on the number of columns that need to be melted.
+# melting a DataFrame using pd.melt().
+# There are two parameters you should be aware of: id_vars and value_vars.
+# The id_vars represent the columns of the data you do not want to melt (i.e., keep it in its current shape)
+# while the value_vars represent the columns you do wish to melt into rows.
+# By default, if no value_vars are provided, all columns not set in the id_vars will be melted.
+# This could save a bit of typing, depending on the number of columns that need to be melted.
  
- # Print the head of airquality
+# Print the head of airquality
 print(airquality.head())
 
 # Melt airquality: airquality_melt
