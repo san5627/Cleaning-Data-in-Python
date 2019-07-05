@@ -59,3 +59,33 @@ Pivot : Un-melting the Data :
 - Multiple variables stored in the same column
 
 
+PART 3 - COMBINING DATA FOR ANALYSIS
+
+- Data may not always come in 1 huge file
+- 5 million row dataset may be broken into 5 seperate datasets'
+- Easier to store and share
+- May have new data for each day
+- Important to be able to combine then clean or vice versa
+
+Concatenating many files : 
+- They must be in list
+- Can individually load if there was a few datasets
+- glob() to find files based on a pattern
+
+Globbing :
+- Pattern matching for file names
+- Wildcards -  *? implies any .csv files or any single character: file_?.csv
+- Return a ;ist of file names
+- Can use this list to load into seperate DataFrames
+
+Then the plan :
+- Load files from globbing into pandas
+- Add the dataframes into a list
+- Concatenate multiple datasets at once
+
+Combining Data in many ways : Use merging
+- Type of Meger are
+- One-to-one
+- Many-to-one / one-to-many
+- Many-to-many
+
