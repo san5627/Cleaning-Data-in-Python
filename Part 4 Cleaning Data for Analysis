@@ -1,0 +1,32 @@
+# Ensuring all categorical variables in a DataFrame are of type category reduces memory usage.
+# Convert the sex column to type 'category'
+tips.sex = tips.sex.astype('category')
+
+# Convert the smoker column to type 'category'
+tips.smoker = tips.smoker.astype('category')
+
+# Print the memory usage of tips after converting the data types of the columns.
+# Use the .info() method to do this.
+# Print the info of tips
+print(tips.info())
+
+# Use pd.to_numeric() to convert the 'total_bill' column of tips to a numeric data type.
+# Coerce the errors to NaN by specifying the keyword argument errors='coerce'.
+# Convert 'total_bill' to a numeric dtype
+tips['total_bill'] = pd.to_numeric(tips['total_bill'], errors='coerce')
+
+# Convert 'tip' to a numeric dtype
+tips['tip'] = pd.to_numeric(tips['tip'], errors='coerce')
+
+# Print the info of tips
+print(tips.info())
+
+
+
+
+
+
+
+
+
+
