@@ -1,4 +1,49 @@
+# Import pandas
+import pandas as pd
 
+# Read the file into a DataFrame: df
+df = pd.read_csv("dob_job_application_filings_subset.csv")
+
+# Print the head of df
+print(df.head())
+
+# Print the tail of df
+print(df.tail())
+
+# Print the shape of df rows,columns
+print(df.shape)
+
+# Print the columns of df
+print(df.columns)
+
+# Print the head and tail of df_subset
+print(df_subset.head())
+print(df_subset.tail())
+
+# The .info() method provides important information about a DataFrame
+# Such as the number of rows, number of columns, number of non-missing values in each column, and the data type stored in each column.
+
+# Print the info of df
+print(df.info())
+
+# Print the info of df_subset
+print(df_subset.info())
+
+
+# Frequency Count 
+# Frequency count for Continuous Variable
+df.describe()
+
+# Frequency count for Categorical Variable
+# So how can you diagnose data issues when you have categorical data?
+# One way is by using the .value_counts() method, which returns the frequency counts for each unique value in a column!
+
+# This method also has an optional parameter called dropna which is True by default.
+# What this means is if you have missing data in a column, it will not give a frequency count of them.
+# You want to set the dropna column to False so if there are missing values in a column, it will give you the frequency counts.
+
+# Print the value counts for 'Borough'
+print(df['Borough'].value_counts(dropna=False))
 
 
 
