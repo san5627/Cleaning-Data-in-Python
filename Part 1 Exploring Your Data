@@ -31,10 +31,7 @@ print(df_subset.info())
 
 
 # Frequency Count 
-# Frequency count for Continuous Variable
-df.describe()
-
-# Frequency count for Categorical Variable
+# Frequency count is used for only Categorical Variable
 # So how can you diagnose data issues when you have categorical data?
 # One way is by using the .value_counts() method, which returns the frequency counts for each unique value in a column!
 
