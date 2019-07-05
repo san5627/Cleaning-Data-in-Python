@@ -1,7 +1,7 @@
 Cleaning Data : 
-1 Prepare Data for Analysis
-2 Data almost never comes in clean
-3 Diagnose data for problems
+1. Prepare Data for Analysis
+2. Data almost never comes in clean
+3. Diagnose data for problems
 
 Common Data problems :
 1. Inconsistent column names
@@ -15,8 +15,8 @@ Common Data problems :
 Exploratory Data Analysis : 
 1. Frequency Counts - Count the number of unique values in the data.
 2. Summary Statistics
-2.1 Numeric columns (describe() which return only numeric values)
-2.2 Outliers - Considerably higher or lower, require further investigations
+2.1. Numeric columns (describe() which return only numeric values)
+2.2. Outliers - Considerably higher or lower, require further investigations
 
 Visual EDA : 
 - Great way to spot outliers and obvious errors
