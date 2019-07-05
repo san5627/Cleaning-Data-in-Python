@@ -1,7 +1,7 @@
 Cleaning Data : 
-1. Prepare Data for Analysis
-2. Data almost never comes in clean
-3. Diagnose data for problems
+1 Prepare Data for Analysis
+2 Data almost never comes in clean
+3 Diagnose data for problems
 
 Common Data problems :
 1. Inconsistent column names
