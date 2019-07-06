@@ -113,3 +113,5 @@ Assert Statements :
 - In other word, if we drop or fill NaNs we expect zero missing values
 - We can write an assert statement to verify this
 - We can detect early warning and errors
+
+PART 5 - CASE STUDY (with all the functions we learnt till now at once)
