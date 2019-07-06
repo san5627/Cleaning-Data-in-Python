@@ -98,4 +98,18 @@ Data Types :
 
 Using regular expressions to clean strings : 
 - String manipluation
-- 
+- apply() to create new columns
+
+Duplicated Data :
+- Can skew results 
+- '.drop_duplicates()' method
+
+Missing Data : 
+- NaN missing values
+- Treatment like leave as it is, drop them or fill them
+
+Assert Statements : 
+- After all treatment, we expect no missing values
+- In other word, if we drop or fill NaNs we expect zero missing values
+- We can write an assert statement to verify this
+- We can detect early warning and errors
